@@ -2,8 +2,7 @@ def binary_search(lst, number_to_find):
     
     while True:
         middle = round(len(lst) / 2) 
-        
-        
+       
         if len(lst) == 1 and middle != number_to_find:
             return False
         if lst[middle] == number_to_find:
